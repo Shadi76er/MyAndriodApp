@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:background="@drawable/lights_button"
+        android:text="Lights"
+        android:id="@+id/lights"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:ems="10" 
+        android:hint=""/>
+
+    <Button
+        android:id="@+id/doors"
+        android:text="Doors"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/doors_button"
+        android:ems="10" 
+        />
+
+    <Button
+        android:id="@+id/alarm"
+        android:text="Alarm"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/alarm_button"
+        android:ems="10"
+        android:hint=""/>
+       
+
+    <Button
+        android:id="@+id/curtains"
+        android:text="Curtians"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/curtians_button"
+        android:ems="10"
+         />
+
+    <Button
+        android:id="@+id/bath"
+        android:text="Bath"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/bath_button"
+        android:ems="10" 
+        android:hint=""/>
+
+    <Button
+        android:id="@+id/camera"
+        android:text="Camera"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:background="@drawable/camera_button"
+        android:ems="10" 
+        android:hint=""/>
+
+    <EditText
+        android:id="@+id/etDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:hint="@string/text_area">
+        <requestFocus />
+    </EditText>
+
+</LinearLayout>
